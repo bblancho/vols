@@ -1,0 +1,17 @@
+{
+    "name": "app/php_html",
+    "description": "Réservation de vols",
+    "autoload": {
+        "psr-4": {
+            "App\\PhpHtml\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "ludal/mysql-querybuilder": "^0.5.2",
+        "doctrine/orm": "^2.11.0",
+        "doctrine/dbal": "^3.2",
+        "symfony/yaml": "^5.4",
+        "symfony/cache": "^5.4"
+    }
+}
